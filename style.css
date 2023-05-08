@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Criando variáveis no CSS para ser utilizada e fácil manutenção */
+:root {
+    --preto: rgb(63, 63, 63);
+    --branco: white;
+    --verde: rgb(167, 255, 167);
+}
+
+/*estilizando o header da página*/
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0 0 10px var(--preto);
+}
+
+.logo-menu {
+    display: flex;
+}
+
+.logo-menu>img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu>li {
+    padding: 10px;
+}
+
+.botoes-menu {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: 600;
+}
+
+.botao-branco {
+    border: 2px solid var(--preto);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.botao-preto {
+    background-color: var(--preto);
+    color: var(--branco);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+/* Estilizando o Main (Corpo principal da pg) */
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+main>img {
+    width: 100%;
+}
+
+/*Navegação do site*/
+.div1 {
+    padding-bottom: 30px;
+    background-color: rgb(194, 255, 231);
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.botao3 {
+    padding: 8px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid black;
+}
+
+.div2 {
+    background-color: rgb(194, 255, 231);
+    display: flex;
+    margin: 20px;
+}
+
+.capa2 {
+    width: 680px;
+    height: 590px;
+}
+
+.div2texto {
+    font-size: 18px;
+    padding: 30px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.botao4 {
+    border: 2px solid black;
+    border-radius: 25px;
+    color: black;
+    padding: 15px;
+    margin: 5px;
+}
+
+/*Último banner*/
+.div3 {
+    background-color: rgb(194, 255, 231);
+    display: flex;
+    margin: 20px;
+}
+
+.div3>div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.div3texto {
+    font-size: 18px;
+    padding: 30px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.botao5 {
+    padding: 8px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid black;
+}
+
+.capa3 {
+    justify-content: end;
+    width: 720px;
+    height: 424px;
+}
+
+/*Rodapé*/
+footer {
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    font-size: smaller;
+}
+
+.infos {
+    margin-top: 20px;
+    display: flex;
+}
+
+.infos ul {
+    margin-left: 60px;
+}
+
+footer .social{
+    display: flex;
+    margin-bottom: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+footer .social li{
+    margin-left: 20px;
+}
+
+footer .politicas {
+    margin-bottom: 20px;
+}
+
+footer .o{
+    font-size: 10px;
+}
+
+.politicas{
+    font-size: 10px;
+}
+
+.final{
+    font-size: 5px;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Criando variáveis no CSS para ser utilizada e fácil manutenção */
+:root {
+    --preto: rgb(63, 63, 63);
+    --branco: white;
+    --verde: rgb(167, 255, 167);
+}
+
+/*estilizando o header da página*/
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0 0 10px var(--preto);
+}
+
+.logo-menu {
+    display: flex;
+}
+
+.logo-menu>img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu>li {
+    padding: 10px;
+}
+
+.botoes-menu {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: 600;
+}
+
+/*Lado esquerdo*/
+.direita{
+    background-color: rgba(128, 128, 128, 0.172);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /*Centralizar horizontalmente */
+    justify-content: flex-end;
+
+}
+
+h3{
+    color: rgb(16, 119, 74);
+}
